@@ -25,12 +25,12 @@ const thirdMax = function (nums) {
 
 describe("Height Checker", () => {
   let testId = 1;
-  it(`${testId++}`, () => {
+  it(`${testId++} Hello World`, () => {
     const arr = [3, 2, 1];
     const res = thirdMax(arr);
     expect(res).to.be.equal(1);
   });
-  it(`${testId++}`, () => {
+  it(`${testId++} Hello Anamika`, () => {
     const arr = [1, 2];
     const res = thirdMax(arr);
     expect(res).to.be.equal(2);
