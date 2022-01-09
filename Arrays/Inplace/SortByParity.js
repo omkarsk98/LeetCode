@@ -7,7 +7,7 @@ const sortArrayByParity = function (A) {
   const LEN = A.length;
   let start = 0, end = LEN - 1;
   while (start < end) {
-    if (A[start] % 2 == 0) // odd
+    if (A[start] % 2 == 0) // check if start one is even
       start++;
     else {
       if (A[end] % 2 == 0) { // even
