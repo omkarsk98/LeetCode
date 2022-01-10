@@ -10,12 +10,15 @@ const search = function (nums, target, left = 0, right = nums.length) {
     if (nums[mid] == target)
       return mid;
     if (nums[left] <= nums[mid]) {
+      // ascending order from left to mid
       if (target >= nums[left] && target <= nums[mid])
+        // target is between left and mid
         right = mid - 1;
       else
         left = mid + 1;
     }
     else if (target >= nums[mid] && target <= nums[right])
+      // target is between mid and right
       left = mid + 1;
     else
       right = mid - 1;
