@@ -13,17 +13,17 @@
  * @param {function} isBadVersion()
  * @return {function}
  */
-const solution = function(isBadVersion) {
+const solution = function (isBadVersion) {
   /**
    * @param {integer} n Total versions
    * @return {integer} The first bad version
    */
-  return function(n) {
+  return function (n) {
     let left = 0, right = n;
-    while(left<=right){
-      const mid = Math.floor((left + right)/2);
+    while (left <= right) {
+      const mid = Math.floor((left + right) / 2);
       const res = isBadVersion(mid);
-      if(res)
+      if (res)
         right = mid - 1;
       else
         left = mid + 1;
