@@ -1,0 +1,1 @@
+../../Problems/2336. Smallest Number in Infinite Set.js

@@ -1,0 +1,1 @@
+Problems/2343. Query Kth Smallest Trimmed Number.js
