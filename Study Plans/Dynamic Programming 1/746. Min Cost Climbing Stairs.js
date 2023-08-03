@@ -1,0 +1,1 @@
+../../Problems/746. Min Cost Climbing Stairs.js
